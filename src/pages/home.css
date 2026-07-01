@@ -1,0 +1,50 @@
+/*SLIDESHOW*/
+.slideshow-container {
+    display: flex;
+    align-items: center;
+}
+
+.slideshow-container img {
+    width: 100vw;
+    height: 300px;
+    object-fit:cover;
+    border: 5px;
+
+}
+
+/* INTRODUCTION SECTION*/
+
+.intro-strip-container {
+
+    font-family:"Garamond", serif;
+    font-size: 17px;
+    background-color:#93e090;
+
+}
+.homepage {
+    background-color: #fafaf7;
+    height: 100%;
+}
+.info-card {
+    background-color: #ecece9;
+    background: var(--card);
+    border: 2px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rdba (0,0,0,0.001);
+    transition: box-shadow 0.2s;
+    margin: 20px;
+}
+
+.info-card h3 {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 17px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.info-card p {
+    text-align: left;
+    font-family: "Verdana", sans-serif;
+    font-size: 14px;
+}
